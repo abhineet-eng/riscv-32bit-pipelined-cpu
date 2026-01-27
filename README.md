@@ -47,22 +47,22 @@ The waveforms demonstrate:
 ## Project Structure
 
 src/
-├── cpu_top.v # Top-level pipelined CPU
-├── pc.v # Program Counter
-├── imem.v # Instruction Memory
-├── regfile.v # Register File
-├── alu.v # ALU
-├── imm_gen.v # Immediate Generator
+-- cpu_top.v # Top-level pipelined CPU
+-- pc.v # Program Counter
+-- imem.v # Instruction Memory
+-- regfile.v # Register File
+-- alu.v # ALU
+-- imm_gen.v # Immediate Generator
 
 diagrams/
-├── pipeline_block_diagram.png
-├── rtl_schematic_vivado.png
+-- pipeline_block_diagram.png
+-- rtl_schematic_vivado.png
 
 waveforms/
-├── README.md # Waveform explanation + screenshots
+-- README.md # Waveform explanation + screenshots
 
 sim/
-├── cpu_tb.v # Testbench
+-- cpu_tb.v # Testbench
 
 
 ---
